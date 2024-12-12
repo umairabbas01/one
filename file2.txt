@@ -4,3 +4,4 @@ https://docs.chaicode.com/terminology/
 
 
 add another marketing message section
+add footer note
