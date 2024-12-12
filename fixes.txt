@@ -2,3 +2,4 @@ I am a fix file which will be added to the git bug.
 fix another
 fourth bug fix
 another fix message for pink mode is ready
+another fixex for purple mode
