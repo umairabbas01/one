@@ -1,1 +1,17 @@
-This is my file one for git course
+2025 footer note added
+
+
+
+
+
+
+git stash // temporary  chages location without  saves.
+git checkout master // switch
+git switch bug-fix  // switch
+git status  
+git log --oneline
+git branch
+git add text1.txt text2.txt      git add .
+git commit -m "done"
+git diff --stag
+git merge bug-fix
