@@ -14,4 +14,51 @@ git branch
 git add text1.txt text2.txt      git add .
 git commit -m "done"
 git diff --stag
-git merge bug-fix
+git merge bug-fix  
+git stash message
+git diff
+git diff --staged
+git diff <branch-name-one> <branch-name-two>
+git diff <commit-hash-one> <commit-hash-two>
+git stash
+git stash save "work in progress on X feature"
+git stash list
+git stash apply
+git stash apply stash@{0}
+git stash pop
+git stash drop
+git stash apply stash@{0} <branch-name>
+git tag <tag-name>
+git tag -a <tag-name> -m "Release 1.0"
+git tag
+git tag <tag-name> <commit-hash>
+git push origin <tag-name>
+git tag -d <tag-name>
+git push origin :<tag-name>
+git checkout feature-branch
+git rebase main
+git reflog
+git reflog <commit-hash>
+git reflog <commit-hash>
+git reset --hard <commit-hash>
+git reflog <commit-hash>
+git reset --hard HEAD@{1}
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+git config --list
+ssh-keygen -t ed25519 -C "your-email@chaicode.com"
+git init
+git add <files>
+git commit -m "commit message"
+git remote -v
+git remote add origin https://github.com/hiteshchoudhary/chai-something.git
+
+git push origin main
+git remote add upstream <remote-url>
+
+git remote add -u <remote-url>
+git push -u origin main
+git fetch <remote-name>
+git pull origin main
